@@ -1,0 +1,54 @@
+# Environments
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# ARE evidence and operational data
+reports/
+report/
+audits/
+audit/
+evidence/
+evidencias/
+are-evidence/
+backups/
+backup/
+
+# Local databases and user data
+*.db
+*.sqlite
+*.sqlite3
+data/
+uploads/
+private/
+credentials/
+secrets/
+
+# Archives
+*.tar
+*.tar.gz
+*.zip
+*.xz
+
+# Logs
+*.log
+
+# Keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Editor and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
